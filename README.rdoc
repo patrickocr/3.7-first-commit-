@@ -1,5 +1,8 @@
 == README
 
+This README is actually exercise 3.7 on Career Foundry's web dev program.
+
+
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
