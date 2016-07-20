@@ -1,3 +1,18 @@
+navbar, nav {
+  position: fixed;
+  height: 2%;
+  text-align: center;
+  display: block;
+  font-family: Verdana, sans-serif;
+  font-size: 1em;
+  letter-spacing: 0.025em;
+  text-transform: uppercase;
+}
+
+navbar li a:hover {
+  color: rgb(200,025,252);
+}
+
 h1 	{
   font-family: Verdana, sans-serif;
   padding-top: 20px;
@@ -16,19 +31,10 @@ body {
   position: relative;
 }
 
-navbar, nav {
-  position: fixed;
-  height: 2%;
-  text-align: center;
-  display: block;
-  font-family: Verdana, sans-serif;
-  font-size: 1em;
-  letter-spacing: 0.025em;
-  text-transform: uppercase;
-}
-
-navbar li a:hover {
-  color: rgb(200,025,252);
+img { 
+  max-width: 100%; 
+  height: auto; 
+  position: relative;
 }
 
 footer {
