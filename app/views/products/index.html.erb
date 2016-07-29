@@ -5,8 +5,9 @@
 <div class="container">
   <div class="row">
   <% @products.each do |product| %>
+     <%= render @products %>
      <div class="col-sm-2 col-md-4">
-        <%= image_tag(product.image_url, class: "img-responsive") %>
+        <%= image_tag(product.image_url) %>
         <%= product.name %>
         <%= product.description %>
         <%= product.image_url %>
